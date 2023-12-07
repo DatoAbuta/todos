@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bai+Jamjuree:wght@400;600&family=Big+Shoulders+Display:wght@800;900&family=Chivo&family=DM+Serif+Display&family=Hanken+Grotesk:wght@500;700;800&family=Josefin+Sans:wght@300;400;700&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Manrope:wght@800&family=Outfit:wght@300&family=Plus+Jakarta+Sans:wght@500;700;800&family=Poppins:wght@300;400;600&family=Red+Hat+Display:wght@500;900&family=Red+Hat+Text:wght@700&family=Space+Mono:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input{
+    width: 327px;
+    height: 48px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.50);
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 108px;
+    left: 24px;
+    z-index: 1;
+    padding-left: 24px;
+}
+input::placeholder{
+    color: #9495A5;
+    font-family: Josefin Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.167px;
+}
+
+.txts{
+    display: flex;
+    flex-direction: row;
+    column-gap: 19px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.50);
+    width: 327px;
+    height: 48px;
+    position: absolute;
+    left: 24px;
+    padding-left: 84px;
+    padding-top: 15px;
+    flex-shrink: 0;
+    top: 556px;
+}
+
+.all,.act,.completed{
+    color: #9495A5;
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.194px;
+}
+
+.smn{
+    position: absolute;
+    display: flex;
+    column-gap: 196px;
+    top: 48px;
+    left: 26px;
+}
+
+.prvl{
+    display: none;
+}
+.scnd{
+    display: block;
+}
+.dark{
+    background: #171823;
+}
+
+.box{
+    width: 327px;
+    height: 368px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.50);
+    position: absolute;
+    top: 172px;
+    left: 24px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 16px;
+    overflow: hidden;
+}
+
+.drag{
+    width: 327px;
+    color: #9495A5;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.194px;
+    position: absolute;
+    top: 644px;
+    left: 24px;
+}
+
+.active{
+    color: #3A7CFD;
+}
+
+.left{
+    color: #9495A5;
+    font-family: Josefin Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.167px;
+}
+
+.clear{
+    color: #9495A5;
+    text-align: right;
+    font-family: Josefin Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.167px;
+}
+
+.error{
+    color: red;
+    font-family: Josefin Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    position: absolute;
+    top: 90px;
+    left: 24px;
+}
+
+.bottommm{
+    position: fixed;
+    display: flex;
+    top: 490px;
+    left: 24px;
+    column-gap: 138px;
+    background-color: white;
+    height: 50px;
+    width: 327px;
+    border-radius: 0 0 5px 5px;
+    padding: 16px;
+}
+
+.test{
+    cursor: pointer;
+}
+
+.clear{
+    cursor: pointer;
+}
+
+.boxshdw{
+    box-shadow: 0px 35px 50px -15px rgba(0, 0, 0, 0.50);
+}
+
+.satesto{
+    border-bottom: 1px solid #E3E4F1;
+}
+.rame{
+    border-bottom: 1px solid #393A4B;
+}
