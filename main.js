@@ -8,6 +8,7 @@ const sun = document.querySelector('.sun')
 const moon = document.querySelector('.moon')
 const box = document.querySelector('.box')
 let testArr = document.querySelectorAll('.test')
+let gonio = document.querySelectorAll('.gonio')
 const back = document.querySelector('.back')
 const error = document.querySelector('.error')
 let left = document.querySelectorAll('.left')
@@ -24,6 +25,10 @@ let liItem = null;
 if(window.screen.width >= 1440){
     back.src = "assets/deskback.png"
 }
+
+
+
+gonio[0].classList.add('active')
 
 testArr[0].classList.add('active')
 testArr.forEach(el => {
@@ -214,8 +219,6 @@ function showTodos(arr){
 
         ximg.addEventListener('click', () => {
             deletetodos(el.id)
-            console.log("cliecked")
-            console.log(arr, "arr")
         })
 
         circleimg.addEventListener('click', () => {
@@ -283,7 +286,6 @@ function showTodos(arr){
 
 function deletetodos(id){
     arr = arr.filter(el => el.id !== id)
-    console.log(arr, "in delet")
 
     showTodos(arr)
 }
