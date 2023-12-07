@@ -17,6 +17,7 @@ const bottom = document.querySelector('.bottommm')
 const txts = document.querySelector('.txts')
 const gender = document.querySelector('.gender')
 const alika = document.querySelector('.alika')
+const alikovich = document.querySelector('.alikovich')
 let darkmode = false;
 let liItem = null;
 
@@ -180,7 +181,11 @@ function pushtxt(){
 
 function showTodos(arr){
     ol.innerHTML = ''
-    alika.innerHTML = `${arr.length} Items Left`
+    if(window.screen.width < 1440){
+        alikovich.innerHTML = `${arr.length} Items Left`
+    }else{
+        alika.innerHTML = `${arr.length} Items Left`
+    }
     localStorage.setItem('kaxunia', JSON.stringify(arr))
 
     arr.forEach(el => {

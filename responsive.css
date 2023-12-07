@@ -1,3 +1,12 @@
+@media (width >= 412px){
+    input,.box,.bottommm,.txts,.smn,.drag,.error{
+        margin-left: 20px;
+    }
+    .drag{
+        width: 327px;
+    }
+}
+
 @media (width >= 1440px){
     input{
         width: 540px;
@@ -15,6 +24,10 @@
     }
     .smn{
         column-gap: 348px;
+        margin: 0;
+    }
+    .error{
+        margin-left: 450px;
     }
     .todo{
         width: 167px;
@@ -60,8 +73,5 @@
         margin: auto;
         width: 100%;
         margin-top: 49px;
-    }
-    .error{
-        margin: auto;
     }
 }
