@@ -51,14 +51,17 @@
         margin-right: -50px;
     }
     .kaxa{
-        padding-left: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
     .drag{
-        margin-left: 631px;
-        width: 179px;
+        margin: auto;
+        width: 100%;
         margin-top: 49px;
     }
     .error{
-        margin-left: 450px;
+        margin: auto;
     }
 }

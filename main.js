@@ -19,6 +19,8 @@ const alika = document.querySelector('.alika')
 let darkmode = false;
 let liItem = null;
 
+
+
 if(window.screen.width >= 1440){
     back.src = "assets/deskback.png"
 }
@@ -33,7 +35,9 @@ testArr.forEach(el => {
     })
 })
 
-let arr = []
+let arr = JSON.parse(localStorage.getItem("kaxunia")) || []
+
+showTodos(arr)
 
 let id = 1;
 
@@ -143,6 +147,7 @@ sun.addEventListener('click', () => {
 
 form.addEventListener('submit', (e) => {
     e.preventDefault();
+
     let res = input.value.trim()
     if(res == ""){
         error.textContent = "Input Can't Be Empty"
@@ -171,6 +176,7 @@ function pushtxt(){
 function showTodos(arr){
     ol.innerHTML = ''
     alika.innerHTML = `${arr.length} Items Left`
+    localStorage.setItem('kaxunia', JSON.stringify(arr))
 
     arr.forEach(el => {
         
