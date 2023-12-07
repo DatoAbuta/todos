@@ -27,6 +27,11 @@ input::placeholder{
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.167px;
+    
+}
+
+.container{
+    transition: 0.8s;
 }
 
 .txts{
@@ -63,6 +68,9 @@ input::placeholder{
     top: 48px;
     left: 26px;
 }
+.sun{
+    display: none;
+}
 
 .prvl{
     display: none;
@@ -72,6 +80,9 @@ input::placeholder{
 }
 .dark{
     background: #171823;
+}
+.gender{
+    display: none;
 }
 
 .box{
@@ -163,11 +174,26 @@ input::placeholder{
 
 .boxshdw{
     box-shadow: 0px 35px 50px -15px rgba(0, 0, 0, 0.50);
+    transition: 0.8s;
 }
 
 .satesto{
     border-bottom: 1px solid #E3E4F1;
+    transition: 0.8s;
 }
 .rame{
     border-bottom: 1px solid #393A4B;
+    transition: 0.8s;
+}
+
+.back{
+    transition: 0.8s;
+}
+body{
+    transition: 0.8s;
+}
+
+.rotate{
+    transform: rotate(1turn);
+    transition: 0.1s;
 }

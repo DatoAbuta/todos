@@ -1,0 +1,64 @@
+@media (width >= 1440px){
+    input{
+        width: 540px;
+        height: 64px;
+        flex-shrink: 0;
+        margin-left: 450px;
+        padding-left: 72px;
+    }
+
+    .box{
+        width: 540px;
+        height: 439px;
+        margin-top: 24px;
+        margin-left: 450px;
+    }
+    .smn{
+        column-gap: 348px;
+    }
+    .todo{
+        width: 167px;
+        height: 40px;
+        margin-left: 450px;
+    }
+    .txts,.bottommm{
+        display: none;
+    }
+    .txts{
+        margin-left: 450px;
+    }
+    .gender{
+        display: flex;
+        justify-content: space-around;
+        width: 540px;
+        padding-left: 189px;
+        top: 586px;
+        padding: 16px 0 0 0;
+
+    }
+    .sun{
+        width: 26px;
+        height: 26px;
+    }
+    .moon{
+        width: 25px;
+        height: 26px;
+    }
+    .zura{
+        display: flex;
+        column-gap: 19px;
+        width: 186px;
+        margin-right: -50px;
+    }
+    .kaxa{
+        padding-left: 450px;
+    }
+    .drag{
+        margin-left: 631px;
+        width: 179px;
+        margin-top: 49px;
+    }
+    .error{
+        margin-left: 450px;
+    }
+}
