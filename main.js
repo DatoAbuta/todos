@@ -177,7 +177,12 @@ function showTodos(arr){
         liItem = document.createElement('div')
 
         liItem.style.display = "flex"
+    if(window.screen.width >= 1440){
+
         liItem.style.gap = "240px"
+    }else{
+        liItem.style.gap = "95px"
+    }
         liItem.style.marginBottom = "10px"
         liItem.style.justifyContent = "center"
         liItem.style.alignItems = "center"
@@ -235,7 +240,7 @@ function showTodos(arr){
         li.style.letterSpacing = '-0.167px'
         li.style.width = "180px"
         li.style.listStyleType = "none"
-        li.style.marginLeft = "-230px"        
+        li.style.marginLeft = "-90px"        
         }else{
 
         li.style.fontFamily = 'Josefin Sans'
